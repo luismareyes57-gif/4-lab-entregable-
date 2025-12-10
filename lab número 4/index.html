@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mi Primer Sitio Web</h1>
+        <h2>Bienvenido a mi página personal</h2>
+    </header>
+
+    <section id="biografia">
+        <h2>Sobre mí</h2>
+        <p>Hola, mi nombre es Luis Ospino. Soy estudiante de ingenieria mecatronica y estoy estudiando en la universida Unibarranquilla.</p>
+        <img src="img1.jpeg" alt="Mi foto personal">
+        <p>Sígueme en mis redes sociales:</p>
+        <ul>
+          <li><a href="https://www.facebook.com/share/19wCyaKo5B/?mibextid=wwXIfr" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/luismateo_1801?igsh=cmRzYXVhdzc2NjR6&utm_source=qr" target="_blank">Instagram</a></li>
+        </ul>  
+            
+        </ul>
+    </section>
+
+    <section id="hobbies">
+        <h2>Mis hobbies</h2>
+        <ul>
+            <li>Leer</li>
+            <li>hacer ejercicio</li>
+            <li>Jugar videojuegos</li>
+        </ul>
+
+        <h2>Tareas Prioritarias</h2>
+        <ol>
+            <li>Estudiar</li>
+            <li>Hacer ejercicios CSS</li>
+            <li>salir hacer mercado</li>
+        </ol>
+    </section>
+
+    <section id="horario">
+        <h2>Mi horario semanal</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Actividad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Estudiar</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>hacer ejercicio</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>salir hacer mercado</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+        <form id="formContacto">
+            <label>Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label>Correo:</label>
+            <input type="email" id="correo" required>
+
+            <label>Motivo de contacto:</label>
+            <textarea id="motivo" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
